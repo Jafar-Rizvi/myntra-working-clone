@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+    header{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color:rgb(255, 253, 250);
+    align-items: center;
+    border-bottom: 1px solid rgb(187, 179, 179);
+}
+ .home{
+    height: 45px;
+}
+#logo_container{
+    margin-left: 4%;
+}
+nav a{
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: .3px;
+    font-weight: 700;
+    color: black;
+    padding: 30px;
+    box-sizing: content-box;
+    border-bottom: 2px solid white;
+}
+nav a:hover{
+    border-bottom: 2px solid crimson;
+}
+
+
+
+.navbar{
+    display: flex;
+    min-width: 500px;
+    justify-content: space-between;
+}
+sup{
+    color: red;
+    font-size: 50%;
+}
+#action{
+    margin-right: 4%;
+    display: flex;
+    min-width: 200px;
+    justify-content: space-between;
+}
+
+
+.search{
+
+   height: 40px;
+    min-width: 200px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f6;
+}
+.search_icon{
+
+    color: rgb(157, 153, 153);
+    font-weight: 300;
+}
+.search_input{
+    background-color:#f5f5f6 ;
+    color: #696e79;
+    flex-grow: 1;
+    height: 40px;
+    flex-grow: 1;
+    border: 0;
+
+}
+.action_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.banner_container{
+    padding: 10px;
+    margin: 40px 0px;
+}
+.banner_image{
+    width: 100%;
+    height: 40%;
+}
+#category_heading{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .5em;
+    margin: 50px 0px 10px 30px;
+    max-height: 5em;
+    font-weight: 800;
+}
+#category_item , .items-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 50px 10%;
+}
+.sales_items{
+    width: 250px;
+}
+.footer_container{
+    padding: 30px 0px 40px 0px;
+    background-color: #FAFBFC;
+    justify-content: space-evenly;
+    display: flex;
+}
+.footercolumns a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+   
+}
+.copyrigth{
+    color: #94969f;
+    text-align: end;
+    padding: 15px;
+}
+.bag-item-counter{
+    background-color: #f16565;
+    white-space: norap;
+    text-align: center;
+    line-height: 18px;
+    padding: 0 6px;
+    height: 18px;
+    position: relative;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #fff;
+    bottom: 45px;
+    right: -15px;
+    cursor: pointer;
+    font-weight: 700;
+}

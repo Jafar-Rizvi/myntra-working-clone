@@ -1,0 +1,59 @@
+.items-container{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+
+}
+.item-container{
+    width: 200px;
+    margin: 10px;
+    
+
+}
+.item-image{
+    width: 100%;
+
+}
+.rating{
+
+}
+.company-name{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.item-name{
+font-weight: lighter;
+font-size: small;
+}
+.price{
+    margin-top: 5px;
+
+}
+.current-price{
+    font-weight: bold;
+    margin-right: 5px;
+
+}
+.original-price{
+    font-weight: lighter;
+    font-size: small;
+    text-decoration: line-through;
+    margin-right: 5px;
+
+}
+.discount{
+    font-weight: lighter;
+    font-size: small;
+    color: rgb(241, 90, 35);
+
+}
+.btn-add-bag{
+    background-color: lightgreen;
+    border-radius: 10px;
+    width: 200px;
+    height: 25px;
+    font-weight: 300;
+    font-size: 18px;
+    cursor: pointer;
+
+}
